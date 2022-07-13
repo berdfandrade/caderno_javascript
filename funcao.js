@@ -1,3 +1,7 @@
+
+
+
+
 var firstName = 'João'
 let lastName = 'Souza'
 
@@ -10,3 +14,7 @@ if(firstName === 'João'){ // Por via de comparação, é bom usar o ===
 }
 
 console.log(firstName, lastName);
+
+
+
+
