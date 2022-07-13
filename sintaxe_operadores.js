@@ -1,7 +1,7 @@
 // Primeiras variáveis... 
 
 var num1 = "1";
-var num2 = "1";
+var num2 = "2";
 
 // Transformando as variáveis em integers
 
