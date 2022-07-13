@@ -3,7 +3,7 @@
 var num1 = "1";
 var num2 = "1";
 
-// transformando as variáveis em integers
+// Transformando as variáveis em integers
 
 var num1 = parseInt(num1);
 var num2 = parseInt(num2);
@@ -30,9 +30,14 @@ var soma = num1 + num2;
 
 
 if (num1 != num2){
-    console.log("Os numéros", num1, "e", num2, "são diferentes. Sua soma é", soma, ". que é", maior_menor(num1, num2))
+    console.log("Os números", num1, "e", num2, "são diferentes. Sua soma é", soma, ". que é", maior_menor(num1, num2))
 }else if(num1 == num2){
-    console.log("Os numéros", num1, "e", num2, "são iguais. Sua soma é", soma, ". que é", maior_menor(num1, num2))
+    console.log("Os números", num1, "e", num2, "são iguais. Sua soma é", soma, ". que é", maior_menor(num1, num2))
 }
+
+
+
+
+
 
 
