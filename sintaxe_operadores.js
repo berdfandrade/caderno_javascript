@@ -1,26 +1,38 @@
 // Primeiras variáveis... 
 
-var num1 = "1"
-var num2 = "2"
+var num1 = "1";
+var num2 = "1";
 
 // transformando as variáveis em integers
 
-parseInt(num1)
-parseInt(num2)
+var num1 = parseInt(num1);
+var num2 = parseInt(num2);
 
-// Criando uma variável para a soma das outras duas variáveis. 
-var soma = num1 + num2
+// Criando uma função que verifica se os números são maior/menor que 10 ou maior/menor que 20
+function maior_menor(num1, num2){
+    if(num1 + num2 < 10){
+        return("menor que 10 e menor que 20.")
+    }else if(num1 + num2 > 10 && num1 + num2 < 20){
+        return("maior que 10 e menor que 20.")
+    }else{
+        return("maior que 10 e maior que 20.")
+    }
 
-// Função que verifica se os dois números colocados são iguais, ou maior/menor que 10 ou 20 
-
-function log(){
-    if (num1 == num2){
-        console.log('Os números não podem ser iguais')
 }
 
-// consertar esse if statement aqui, mas lembrar de usar o pipe para verificar se um número é maior ou igual a 10/20 etc... 
-if(soma >= 10 || soma <= 20){
-    soma = "maior que 10"
-}else if(soma >= 20){
-    soma = "maior ou igual a 20"
+// Criando uma variável que soma os dois valores
+
+var soma = num1 + num2;
+
+// E por último, verificamos se os números são iguais, se forem, dizemos que são iguais e prosseguimos com sua soma e com a verificação se são > 10 || < 10 && < 20 || > 20.
+
+// Depois printamos a string com o "console.log"
+
+
+if (num1 != num2){
+    console.log("Os numéros", num1, "e", num2, "são diferentes. Sua soma é", soma, ". que é", maior_menor(num1, num2))
+}else if(num1 == num2){
+    console.log("Os numéros", num1, "e", num2, "são iguais. Sua soma é", soma, ". que é", maior_menor(num1, num2))
 }
+
+
