@@ -16,8 +16,6 @@ let exemplo_2 = new String("blablabla") // Se eu verificar no console usando typ
 
 // Mesmo quando você está trabalhando com valores primitivos, quando você dá um ponto ( . ) e você utiliza uma função do objeto, o Javascript vai entender, vai transformar esse valor em um objeto e vai retornar a função para você (Ex: string.length )
 
-
-
 // E... olha que interessante! Os valores definidos pelas variáveis são iteráveis(iteration), ou seja, você pode iterar neles como se fossem arrays. Ex:
 
 nome[0] // Isso daqui vai retornar o valor "B", porque é a primeira letra de "Bernardo"
