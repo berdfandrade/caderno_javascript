@@ -11,7 +11,6 @@ let validation = 3 === 0
 console.log(validation)
 
 $ false
-
 ```
 Já nesse caso, ele retorna `true`.
 
@@ -46,7 +45,7 @@ console.log(!validation_2)
 $ false
 ```
 
-// Um exemplo mais óbvio disso é:
+Um exemplo mais óbvio disso é:
 
 ```
 console.log(!true)
