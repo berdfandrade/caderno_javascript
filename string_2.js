@@ -1,5 +1,7 @@
 
 
+// Propriedades fundamentais de strings pt. 2
+
 
 
 let nome = 'Bernardo'
@@ -8,7 +10,7 @@ let sobrenome = "Andrade"
 
 let concatenado = nome.concat(sobrenome) // Iteressante isso aqui... Você coloca o nome da variável + o nome da propriedade que você quer atribuir... e no parâmetro, você coloca o nome da string. 
 
-// Mas, eu imagino que você possa atribuir outras coisas nesse parâmetro, pq já vi de relance em alguns códigos Javascript
+// Mas, eu imagino que você possa atribuir outras coisas nesse parâmetro, pq já vi de relance em alguns códigos Javascript.
 
 let exemplo = "blablabla" // Quando eu declaro assim, é uma string. Ou seja, tipo primitivo.
 
@@ -27,7 +29,7 @@ nome[0] // Isso daqui vai retornar o valor "B", porque é a primeira letra de "B
 // Mas se chamarmos a variável concatenado, ainda vamos obter o resultado 'BernardoAndrade', o nome junto. então o que podemos fazer é:
 
 concatenado = nome + " " + sobrenome 
-concatenado = nome + "\n" + sobrenome // vai criar uma nova linha entre o nome e o sobrenome, voce, pode colocar mais de um /n para aumentar a quantiade de linhas...
+concatenado = nome + "\n" + sobrenome // vai criar uma nova linha entre o nome e o sobrenome, você, pode colocar mais de um /n para aumentar a quantiade de linhas...
 
 
 //Mas, depois da atualização do Javascript de 2015, você pode escrever desta foma: - Que o resultado vai ser o mesmo
@@ -52,7 +54,7 @@ var IagoAspas = "\"" // com essa barra, você consegue escapar, daí aparece só
 
 let frase = "Olá, tudo bem?"
 
-frase.split("") // o split, vai separar os argumentos da sua string. Nesse caso ele vai separar tudo 
+frase.split("") // o split, vai separar os argumentos da sua string. Nesse caso ele vai separar tudo. 
 
 console.log(frase.split("")) // Tô só dando o console.log aqui para ver o resultado... 
 
@@ -82,6 +84,15 @@ console.log(frase.endsWith("?")) // também vai retornar true.
 
 console.log(frase.replace(",", "!")) // É simples! É só colocar o que você quer substituir, > depois uma vírgula > depois a parte nova da string. O output disso é "Olá! tudo bem ?"
 
+let stringModificada =  (frase.replace(",", "!")) // Isso aqui vai ser uma nova string, no caso, modificada com essas características. 
+
+console.log(stringModificada)  // Eu dou console log nela, caso queria chamar a string.
 
 
+// Métodos importantes das strings:
+
+// Concaternação; Juntar duas strings em uma, às vezes criando outra string... 
+// Propriedade lenght; Conseguir verificar a quantidade de caractéres em uma string. 
+// Iterabilidade; Poder iterar pela string... 
+// Formatação, você pode mudar tudo para minúsculo, tudo para maiúsculo, etc..
 
