@@ -1,11 +1,11 @@
-#Valores booleanos
+# Valores booleanos
 
 Nos valores booleanos, ou a afirmação é verdadeira, ou ela é falsa. Ou ele vai te retornar true, ou ele vai te retonar false. 
  
 ```
 let validation = 3 === 0  
 ```
-- Sempre que eu faço algum tipo de comparação, ele vai me retornar algum dos dois: `true` ou `false`. Como 3 não é igual a zero, ele vai retornar `false`. 
+Sempre que eu faço algum tipo de comparação, ele vai me retornar algum dos dois: `true` ou `false`. Como 3 não é igual a zero, ele vai retornar `false`. 
 
 ```
 console.log(validation)
