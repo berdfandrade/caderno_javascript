@@ -1,4 +1,4 @@
-#Números em javascript 
+## Números em javascript 
 
 - Os números são bem básicos, existem os números `inteiros`e os números `decimais`. Os inteiros são: `1,2,3,4,5(...)`, enquanto os números `decimais` são `3.14, 5.356, 1.2 (...)` 
 
