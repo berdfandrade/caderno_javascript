@@ -43,7 +43,7 @@ ${sobrenome}` // Desta forma, você pode pular linhas
 
 
 
-// E se eu quiser, por exemplo printar uma àspa? Desta forma:
+// E se eu quiser, por exemplo printar uma aspa? Desta forma:
 
 var IagoAspas = "\"" // com essa barra, você consegue escapar, daí aparece só a aspa lá no console
 // console.log(IagoAspas)
@@ -62,7 +62,7 @@ console.log(frase.split("")) // Tô só dando o console.log aqui para ver o resu
 
 console.log(frase.split(" "))
 
-// Se eu quiser saber se a minha frase tem a palvra "tudo" eu uso o método includes.
+// Se eu quiser saber se a minha frase tem a palavra "tudo" eu uso o método includes.
 
 console.log(frase.includes("tudo"))  // Aqui ela vai retornar a booleana; true, porque frase contém a palavra "tudo" 
 
