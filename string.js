@@ -1,6 +1,6 @@
 
 
-
+// Propriedades de strings.
 
 
 let firstName = 'Bernardo';
