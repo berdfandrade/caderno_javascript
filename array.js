@@ -23,4 +23,6 @@ console.log(array) // Neste caso, vai aparecer apenas o elemento 3 dentro do Arr
 
 array.shift() // O método .shift, tira o elemento do começo do array, da mesma forma que o .pop() tira do final. 
 
+// Da mesma forma o array.unshift, adiciona no começo da lista.
+
 console.log(array)
