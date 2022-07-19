@@ -25,4 +25,36 @@ array.shift() // O método .shift, tira o elemento do começo do array, da mesma
 
 // Da mesma forma o array.unshift, adiciona no começo da lista.
 
+array.unshift(1)
+
+// O array possui iterabilidade, ou seja você pode fazer operações em cada um dos elementos do array. 
+// Por exemplo: 
+
+for(let i = 0; i < array.length; i++){
+    console.log(array[i]) 
+}
+// aqui eu consigo dar um console.log para cada elemento do array! 
+
+// O array possui vários métodos! Se você der um `array.` vão aparecer diversos métodos. 
+
+// Existe o `array.includes()` Com ele você pode verificar se no seu array tem algum número que você 
+// definiu como parâmetro. Por exemplo
+
+console.log(array.includes(23)) // Aqui ele vai retornar `false`, 
+// porque não existe o número 23 dentro desse array.
+
+// Se eu quiser saber se todos os itens dentro do array são iguais a 5, por exemplo: 
+
+array.every(item => item === 3) // Ele vai retornar falso, porque não são 
+// todos os itens dentro do array que são iguais a 3.
+
+// Mas eu posso verificar se algum item dentro do array é igual a 3.
+
+array.some(item => item === 3) // aqui ele retorna 3, porque 
+// existe um item dentro do Array que é igual a  3.
+
+// Posso também reverter a ordem do array, como o `reverse`
+
+array.reverse()
+
 console.log(array)
