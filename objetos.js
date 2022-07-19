@@ -24,3 +24,32 @@ console.log(Object.values(obj))
 // Mas se eu quiser saber quais são as chaves, eu dou um `Object.keys()`
 
 console.log(Object.keys(obj))
+
+// se eu quiser declarar um objeto e declarar minhas chaves e valores junto com o objeto, eu posso fazer:
+
+let pessoa = {
+    nome : 'Bernardo',
+    idade : 26,
+    endereco : 'rua 2'
+}
+
+console.log(pessoa)
+
+// se eu quiser o nome, eu posso "pedir"
+
+console.log(pessoa.nome) 
+
+// posso atribuir mais uma chave/valor desta forma, se eu quiser:
+
+pessoa["NumeroDeIrmaos"] = 3
+
+console.log(pessoa)
+
+// Aqui eu posso criar uma chave, já com um valor específico. 
+let mae = "NomeDaMae"
+
+// Depois, eu consigo colocar o valor "Maria" na chave mae, que por sua vez chama "NomeDaMae"
+
+pessoa[mae] = "Maria"
+
+console.log(pessoa)
