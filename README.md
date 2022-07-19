@@ -14,12 +14,10 @@ let exemplo = "blablabla"
 
 Com isso, quero desenvolver essas habilidades:
 
-- Melhorar minha escrita e **__capacidade de comunicação_** com outros desenvolvedores.
+- Melhorar minha escrita e **_capacidade de comunicação_** com outros desenvolvedores.
 
 - Melhorar minha habilidade com a ferramenta **_Markdown_**. Para assim, poder escrever melhores README.md e documentar de maneira clara e descritiva os projetos que estou envolvido. 
 
 - Criar uma familiariadade maior com o **_Github_**
 
 - Substituir o meu antigo método de memorização, que era fazer anotações em um caderno comum. 
-
-
