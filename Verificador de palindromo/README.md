@@ -10,7 +10,7 @@ if(!string) return;
 
 ```
 
-O return saí da sua função.
+O return sai da sua função.
 
 ```javascript
 string.split("").reverse().join()("") === string
