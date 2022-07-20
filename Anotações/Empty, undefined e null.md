@@ -103,3 +103,4 @@ Todos esses são valores que vão te retornar algo falso, se você for verificar
     Pois todos esses valores `false`, `empty`  e `undefined` são diferentes de `true`. 
 
 
+
