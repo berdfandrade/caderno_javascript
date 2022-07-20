@@ -2,9 +2,7 @@
 
 Todos esses são valores que vão te retornar algo falso, se você for verificar eles como booleanos, vão retornar `false`.
 
-<img title="" src="file:///home/bernardo/Área%20de%20Trabalho/Captura%20de%20tela%20de%202022-07-20%2013-22-47.png" alt="Captura de tela de 2022-07-20 13-22-47.png" width="501" data-align="center">
-
-**Mas, eles são diferentes!**
+**Mas, eles são diferentes!**!
 
 - Quando você declara um valor como `empty`, quer dizer que você declarou aquela variável, e se ela é um número, quer dizer que você declarou ela como zero `0`. Se essa variável é uma string, quer dizer que você delcarou apenas com aspas, você não colocou nada dentro dentro daquela string `""`. Se ela é um **Array**, você só inicializou esse **Array** com colchetes `[]`. Se é um objeto, você só inicializou com as chaves `{}`.  
 
