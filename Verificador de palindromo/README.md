@@ -19,10 +19,10 @@ O `return` sai da sua função.
 return string.split("").reverse().join()("") === string
 ```
 
-O `split()` vai separar todas as letras da string e transformá-la em um array. O `reverse()` vai fazer todas essas letras ficarem na ordem inversa. O `Join()` vai juntar todas as letras invertidas em uma string. Agora, o mais interessante é o `===` , que vai conferir se essa string invertida, é estritamente igual a string colocada para ser analisada pela função.
+O `split()` vai separar todas as letras da string e a transformar em um array. O `reverse()` vai fazer todas essas letras ficarem na ordem inversa. O `Join()` vai juntar todas as letras invertidas em uma string. Agora, o mais interessante é o `===` , que vai conferir se essa string invertida, é estritamente igual a string colocada para ser analisada pela função.
 
-- Coloquei um `}else{` no `if statement`, para entedermos o que está acontecendo. 
-- Caso a string seja diferente de um `true` retornamos `"string não existe"`. Caso contrário, retornamos a verficação do palíndromo. 
+- Coloquei um `}else{` no `if statement`, para entendermos o que está acontecendo. 
+- Caso a string seja diferente de um `true` retornamos `"string não existe"`. Caso contrário, retornamos a verificação do palíndromo. 
 
 ```javascript
 function verificaPalindromo(string){
