@@ -27,3 +27,5 @@ function verificaPalindromo(string){
         return string.split("").reverse().join("") === string
     }
 ```
+
+
