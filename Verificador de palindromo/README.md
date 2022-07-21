@@ -13,7 +13,7 @@ if(!string) return "string não existe"
 // Empty, null ou undefined, retornamos, "string não existe."
 ```
 
-O return sai da sua função.
+O `return` sai da sua função.
 
 ```javascript
 return string.split("").reverse().join()("") === string
@@ -34,5 +34,3 @@ function verificaPalindromo(string){
 ```
 
 ### Solução 2
-
-
