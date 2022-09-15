@@ -17,8 +17,6 @@ function substituiPares(array){
 
 let arr= [1, 3, 4, 6, 80, 33, 23, 90];
 
-let arr_2 = []
-
-console.log(substituiPares(false));
+console.log(substituiPares([1, 3, 4, 6, 80, 33, 23, 90]));
 
 
