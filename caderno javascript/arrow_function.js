@@ -7,4 +7,10 @@ const myFunc = function() {
 
 // Com a arrow function, podemos escrever dessa forma:
 
-const myFunction = () => "Value"; 
+const myFunction = () => "Value "; 
+
+// Arrow function com parâmetros...
+
+const doubler = (item) => item * 2;
+console.log(doubler(4)); 
+
